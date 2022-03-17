@@ -13,13 +13,16 @@ namespace tpmodul4_1302203122
             string namaKu;
             Console.Write("Massukan Nama : ");
             namaKu = Console.ReadLine();
+            HaloGeneric.sapauser<string>(namaKu);
         }
     }
     class HaloGeneric
     {
       public static void sapauser<t>(t nama)
         {
-            console.writeline("halo userr" + nama);
+            Console.WriteLine("halo user" + nama);
         }
     }
+
+
 }
